@@ -1,0 +1,79 @@
+<div id="mySidenav" class="sidenav">
+
+  <a id="profile" routerLink="/restaurant">
+    <i class="fa fa-users profileIcon" aria-hidden="true" ></i><br>
+    <span class="profileText">SelfOrder</span>
+  </a>
+
+  <a class="user" (click)="onClick('user-list')">
+    <i class="fa fa-thumbs-o-up navicon" aria-hidden="true"></i>
+    <span class="atext">ຈັດການຜູ້ໃຊ້</span>
+  </a>
+  <ul class="user-list" style="list-style: none">
+    <li routerLink="/user">search</li>
+    <li>add</li>
+  </ul>
+
+  <a class="restaurant" (click)="onClick('res-list')">
+    <i class="fa fa-television navicon" aria-hidden="true"></i>
+    <span class="atext">ຮ້ານອາຫານ</span>
+  </a>
+  <ul class="res-list" style="list-style: none">
+    <li routerLink="/restaurant">search</li>
+    <li>add</li>
+  </ul>
+
+  <a class="event" (click)="onClick('event-list')">
+    <i class="fa fa-television navicon" aria-hidden="true"></i>
+    <span class="atext">Event</span>
+  </a>
+  <ul class="event-list" style="list-style: none">
+    <li routerLink="/event">search</li>
+    <li>add</li>
+  </ul>
+
+  <a class="menu" (click)="onClick('menu-list')">
+    <i class="fa fa-television navicon" aria-hidden="true"></i>
+    <span class="atext">Menu ອາຫານ</span>
+  </a>
+  <ul class="menu-list" style="list-style: none">
+    <li routerLink="/menu">search</li>
+    <li>add</li>
+  </ul>
+
+
+  <!-- not yet  -->
+  <a routerLink="/order">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">ລາຍການສັ່ງອາຫານ</span>
+  </a>
+  <a routerLink="/coupon">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">Coupon</span>
+  </a>
+  <a routerLink="/review">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">Review</span>
+  </a>
+  <a routerLink="/rate">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">Rate</span>
+  </a>
+  <a routerLink="/expenditure">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">ລາຍຈ່າຍ</span>
+  </a>
+  <a routerLink="/product">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">ສິນຄ້າ</span>
+  </a>
+  <a routerLink="/reservation">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">ການຈອງ</span>
+  </a>
+  <a routerLink="/report">
+    <i class="fa fa-power-off navicon" aria-hidden="true"></i>
+    <span class="atext">Report</span>
+  </a>
+
+</div>
